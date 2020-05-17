@@ -7,8 +7,8 @@
                 <thead>
                   <tr>
                     <th>Nama</th>
-                    <th>Jen kel</th>
-                    <th>Alamat</th>
+                    <th>Umur Padi</th>
+                    <th>Asal Persilangan</th>
           <?php
           $sqlNamakriteria = "SELECT * FROM tabel_kriteria ORDER BY id_kriteria ASC";
           $resultNamaKriteria = mysqli_query($koneksi, $sqlNamakriteria);

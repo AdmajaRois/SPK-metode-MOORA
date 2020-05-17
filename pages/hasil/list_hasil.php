@@ -7,7 +7,7 @@
                 <thead>
                   <tr>
                     <th>Tanggal Perhitungan</th>
-                    <th>Jumlah Siswa</th>
+                    <th>Jumlah Jenis Padi</th>
                     <th>Detail</th>
                   </tr>
                 </thead>

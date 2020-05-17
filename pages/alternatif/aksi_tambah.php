@@ -28,9 +28,9 @@ if ($status == 'ya') {
 }else{
 	$nStatus = 0;
 }
-if ($ekonomi == 'fisik') {
+if ($ekonomi == 'wereng') {
 	$nEkonomi = 25;
-}else if ($ekonomi == 'phk'){
+}else if ($ekonomi == 'jamur'){
 	$nEkonomi = 25;
 }else{
 	$nEkonomi = 25;

@@ -1,6 +1,6 @@
 <ul class="nav nav-tabs" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#home">Data Diri</a>
+      <a class="nav-link active" data-toggle="tab" href="#home">Data</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#menu1">Nilai</a>
@@ -12,28 +12,28 @@
     <div id="home" class="tab-pane active">
       <h3>Data Diri</h3>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Nama </label>
+          <label class="col-sm-2 col-sm-2 control-label">Nama Padi </label>
           <div class="col-sm-10">
             <input type="text" class="form-control round-form" name="nama">
           </div>
         </div>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Jenis Kelamin</label>
+          <label class="col-sm-2 col-sm-2 control-label">Umur Padi </label>
           <div class="col-sm-10">
             <div class="form-check-inline">
               <label class="form-check-label" for="radio1">
-                <input type="radio" class="form-check-input" id="radio1" name="jenis_kelamin" value="L" checked> Laki - Laki
+                <input type="radio" class="form-check-input" id="radio1" name="jenis_kelamin" value="Pendek" checked> Pendek 
               </label>
             </div>
             <div class="form-check-inline">
               <label class="form-check-label" for="radio2">
-                <input type="radio" class="form-check-input" id="radio2" name="jenis_kelamin" value="P"> Perempuan
+                <input type="radio" class="form-check-input" id="radio2" name="jenis_kelamin" value="Panjang"> Panjang 
               </label>
             </div>
           </div>
         </div>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Alamat </label>
+          <label class="col-sm-2 col-sm-2 control-label">Asal Persilangan </label>
           <div class="col-sm-10">
               <textarea class="form-control" rows="5" id="comment" name="alamat"></textarea>
           </div>
@@ -42,7 +42,7 @@
     <div id="menu1" class=" tab-pane fade">
       <h3>Nilai</h3>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Penerima KPS/KKS/KIP : </label>
+          <label class="col-sm-2 col-sm-2 control-label">Membutuhkan Air Sepanjang Tahun</label>
           <div class="col-sm-10">
             <div class="form-check-inline">
               <label class="form-check-label" for="radio1">
@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Penerima PKH : </label>
+          <label class="col-sm-2 col-sm-2 control-label">Bisa di Tanam di Dataran Tinggi  </label>
           <div class="col-sm-10">
             <div class="form-check-inline">
               <label class="form-check-label" for="radio1">
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Yatim / Piatu : </label>
+          <label class="col-sm-2 col-sm-2 control-label">Bisa Di Tanam Daerah Banyak Angin</label>
           <div class="col-sm-10">
             <div class="form-check-inline">
               <label class="form-check-label" for="radio1">
@@ -81,25 +81,25 @@
           </div>
         </div>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Kesulitan Ekonomi : </label>
+          <label class="col-sm-2 col-sm-2 control-label">Tahan Hama</label>
           <div class="col-sm-10">
             <div class="form-check-inline">
               <label class="form-check-label" for="radio1">
-                <input type="radio" class="form-check-input" id="radio1" name="ekonomi" value="fisik" checked> Kelainan Fisik 
+                <input type="radio" class="form-check-input" id="radio1" name="ekonomi" value="wereng" checked> Wereng
               </label>
               <label class="form-check-label" for="radio2">
-                <input type="radio" class="form-check-input" id="radio2" name="ekonomi" value="phk"> PHK 
+                <input type="radio" class="form-check-input" id="radio2" name="ekonomi" value="jamur"> Jamur
               </label>
               <label class="form-check-label" for="radio2">
-                <input type="radio" class="form-check-input" id="radio2" name="ekonomi" value="terpidana"> Terpidana 
+                <input type="radio" class="form-check-input" id="radio2" name="ekonomi" value="potong leher"> Potong Leher
               </label>
             </div>
           </div>
         </div>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Penghasilan </label>
+          <label class="col-sm-2 col-sm-2 control-label">Maksimal PH Tanah </label>
           <div class="col-sm-10">
-            <input type="number" class="form-control round-form" name="penghasilan" min="0" step="100">
+            <input type="number" class="form-control round-form" name="penghasilan" min="0">
           </div>
         </div>
         <div class="form-group">

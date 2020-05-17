@@ -1,8 +1,8 @@
 <div class="form-panel">
-              <h4 class="mb"><i class="fa fa-angle-right"></i> Jumlah Siswa Diterima</h4>
+              <h4 class="mb"><i class="fa fa-angle-right"></i> Jumlah padi yang akan di tanam </h4>
               <form class="form-horizontal style-form" method="POST" action="pages/hasil/proses_hitung.php">
                 <div class="form-group">
-                  <label class="col-sm-2 col-sm-2 control-label">Jumlah Siswa Diterima</label>
+                  <label class="col-sm-2 col-sm-2 control-label">Jumlah Padi Yang Akan Di Tanam</label>
                   <div class="col-sm-10">
                     <input type="number" min="1" class="form-control round-form" name="jsiswa">
                   </div>
