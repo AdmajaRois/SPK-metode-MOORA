@@ -42,12 +42,12 @@ if (!empty($penghasilan)) {
 }
 
 // sql
-$sql = "INSERT INTO tabel_siswa (nama, jenis_kelamin, alamat,KPS,PKH,status,penghasilan,ekonomi)
+$sql = "INSERT INTO tabel_alternatif (nama, jenis_kelamin, alamat,KPS,PKH,status,penghasilan,ekonomi)
 VALUES ('$nama', '$jenis_kelamin', '$alamat','$KPS','$PKH','$status','$penghasilan','$ekonomi')";
 
 if ($koneksi->query($sql) === TRUE) {
 	//mengambil id siswa terkahir yang baru saja dimasukan
-	$sqlIdakhir = "SELECT id_siswa FROM tabel_siswa ORDER BY id_siswa DESC limit 1";
+	$sqlIdakhir = "SELECT id_siswa FROM tabel_alternatif ORDER BY id_siswa DESC limit 1";
           $resultIdakhir = mysqli_query($koneksi, $sqlIdakhir);
               $hasil = mysqli_fetch_assoc($resultIdakhir);
               	$id_siswa = $hasil['id_siswa'];

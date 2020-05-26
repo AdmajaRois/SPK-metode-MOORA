@@ -31,7 +31,7 @@ foreach ($kriteria as $id_kriteria => $value) {
 
 //proses pengambilan nilai
 
-$sql = 'SELECT * FROM tabel_siswa';
+$sql = 'SELECT * FROM tabel_alternatif';
 $result = $db->query($sql);
 //-- menyiapkan variable penampung berupa array
 $alternatif=array();

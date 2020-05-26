@@ -23,7 +23,7 @@
                 </thead>
                 <tbody>
           <?php
-          $sql = "SELECT * FROM tabel_siswa";
+          $sql = "SELECT * FROM tabel_alternatif";
           $result = mysqli_query($koneksi, $sql);
               while ($row = mysqli_fetch_assoc($result)) {
           ?>

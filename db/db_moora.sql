@@ -157,10 +157,10 @@ INSERT INTO `tabel_nilai` (`id_nilai`, `id_kriteria`, `id_siswa`, `nilai`) VALUE
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tabel_siswa`
+-- Struktur dari tabel `tabel_alternatif`
 --
 
-CREATE TABLE `tabel_siswa` (
+CREATE TABLE `tabel_alternatif` (
   `id_siswa` int(100) NOT NULL,
   `nama` text NOT NULL,
   `jenis_kelamin` text NOT NULL,
@@ -173,10 +173,10 @@ CREATE TABLE `tabel_siswa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `tabel_siswa`
+-- Dumping data untuk tabel `tabel_alternatif`
 --
 
-INSERT INTO `tabel_siswa` (`id_siswa`, `nama`, `jenis_kelamin`, `alamat`, `KPS`, `PKH`, `status`, `penghasilan`, `ekonomi`) VALUES
+INSERT INTO `tabel_alternatif` (`id_siswa`, `nama`, `jenis_kelamin`, `alamat`, `KPS`, `PKH`, `status`, `penghasilan`, `ekonomi`) VALUES
 (1, 'wisanggeni', 'L', 'gumuk mas', 'ya', 'tidak', 'ya', 90000000, 'fisik'),
 (2, 'Sita', 'P', 'Auah gelap', 'tidak', 'tidak', 'tidak', 10000000, 'tidak'),
 (3, 'steven hawking', 'L', 'cupuwatu', 'ya', 'ya', 'ya', 1000000000, 'tidak'),
@@ -213,9 +213,9 @@ ALTER TABLE `tabel_nilai`
   ADD KEY `id_siswa` (`id_siswa`);
 
 --
--- Indeks untuk tabel `tabel_siswa`
+-- Indeks untuk tabel `tabel_alternatif`
 --
-ALTER TABLE `tabel_siswa`
+ALTER TABLE `tabel_alternatif`
   ADD PRIMARY KEY (`id_siswa`);
 
 --
@@ -247,9 +247,9 @@ ALTER TABLE `tabel_nilai`
   MODIFY `id_nilai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
--- AUTO_INCREMENT untuk tabel `tabel_siswa`
+-- AUTO_INCREMENT untuk tabel `tabel_alternatif`
 --
-ALTER TABLE `tabel_siswa`
+ALTER TABLE `tabel_alternatif`
   MODIFY `id_siswa` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 

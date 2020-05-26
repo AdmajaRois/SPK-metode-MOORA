@@ -19,7 +19,7 @@ if($mysqli->connect_error) {
                 </thead>
                 <tbody>
           <?php
-          $sql = "SELECT tabel_siswa.nama,tabel_siswa.jenis_kelamin,tabel_siswa.alamat,tabel_hasil.nilai FROM tabel_hasil join tabel_siswa ON tabel_hasil.id_siswa = tabel_siswa.id_siswa WHERE tabel_hasil.tanggal = ? ORDER BY tabel_hasil.nilai DESC";
+          $sql = "SELECT tabel_alternatif.nama,tabel_alternatif.jenis_kelamin,tabel_alternatif.alamat,tabel_hasil.nilai FROM tabel_hasil join tabel_alternatif ON tabel_hasil.id_siswa = tabel_alternatif.id_siswa WHERE tabel_hasil.tanggal = ? ORDER BY tabel_hasil.nilai DESC";
         //   $result = mysqli_query($koneksi, $sql);
 
         //   $sql = "SELECT customerid, companyname, contactname, address, city, postalcode, country

@@ -28,7 +28,7 @@ $content .='
     </tr>';
 
 $no=1;
-$sql = $koneksi ->query("select * from tabel_hasil JOIN tabel_siswa ON tabel_hasil.id_siswa = tabel_siswa.id_siswa ORDER BY tabel_hasil.nilai");
+$sql = $koneksi ->query("select * from tabel_hasil JOIN tabel_alternatif ON tabel_hasil.id_siswa = tabel_alternatif.id_siswa ORDER BY tabel_hasil.nilai");
 while ($data = $sql->fetch_assoc()) {
     $content .='
     <tr>

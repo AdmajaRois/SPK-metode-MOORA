@@ -31,20 +31,20 @@ foreach ($kriteria as $id_kriteria => $value) {
 
 //proses pengambilan nilai
 
-$sql = 'SELECT * FROM tabel_siswa';
+$sql = 'SELECT * FROM tabel_alternatif';
 $result = $db->query($sql);
 //-- menyiapkan variable penampung berupa array
 $alternatif=array();
 //-- melakukan iterasi pengisian array untuk tiap record data yang didapat
 foreach ($result as $row) {
    $alternatif[$row['id_siswa']]=array($row['nama'],
-                                               $row['jenis_kelamin'],
-                                    $row['alamat'],
-                                    $row['KPS'],
-                                    $row['PKH'],
-                                    $row['status'],
-                                    $row['ekonomi'],
-                                    $row['penghasilan']);
+                                       $row['jenis_kelamin'],
+                                       $row['alamat'],
+                                       $row['KPS'],
+                                       $row['PKH'],
+                                       $row['status'],
+                                       $row['ekonomi'],
+                                       $row['penghasilan']);
 }
 
 //MENAMPILKAN NILAI ALTERNATIF

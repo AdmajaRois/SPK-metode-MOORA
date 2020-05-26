@@ -9,7 +9,7 @@
 
 <?php
 $id_siswa = $_GET['id_siswa'];
-$sql = "SELECT * FROM tabel_siswa WHERE id_siswa = $id_siswa";
+$sql = "SELECT * FROM tabel_alternatif WHERE id_siswa = $id_siswa";
 $result = mysqli_query($koneksi, $sql);
 $row = mysqli_fetch_assoc($result);
 ?>

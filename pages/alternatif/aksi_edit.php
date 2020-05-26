@@ -70,7 +70,7 @@ if (!empty($penghasilan)) {
                         WHERE id_kriteria='5' AND id_siswa = '$id_siswa'; ";
                 $koneksi->query($sEkonomi);
                 
-                $sqlSiswa = "UPDATE tabel_siswa SET nama= '$nama', jenis_kelamin='$jenis_kelamin',alamat='$alamat',kps='$KPS',pkh='$PKH',
+                $sqlSiswa = "UPDATE tabel_alternatif SET nama= '$nama', jenis_kelamin='$jenis_kelamin',alamat='$alamat',kps='$KPS',pkh='$PKH',
                             status='$status',penghasilan='$penghasilan',ekonomi='$ekonomi' WHERE id_siswa = '$id_siswa' ";
                 $koneksi->query($sqlSiswa);
 
