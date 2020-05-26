@@ -97,7 +97,7 @@
           </div>
         </div>
         <div class="form-group">
-          <label class="col-sm-2 col-sm-2 control-label">Maksimal PH Tanah </label>
+          <label class="col-sm-2 col-sm-2 control-label">Minimal PH Tanah </label>
           <div class="col-sm-10">
             <input type="number" class="form-control round-form" name="penghasilan" min="0">
           </div>
